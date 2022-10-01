@@ -8,9 +8,10 @@ const path = require("path");
 const mongoose = require("mongoose");
 const studentModel = require("./models/StudentSchema");
 //url connection string (local db)
-const url = "mongodb://localhost:27017/greenwich";
+// const url = "mongodb://localhost:27017/greenwich";
 //url connection string (cloud db)
 //const url = ("mongodb+srv://longndt:xdHB48B3Fv*%40TPa@cluster0.i5kings.mongodb.net/greenwich");
+const url = ("mongodb+srv://hnzshyn:shyn1903112002@cluster0.djzhqbp.mongodb.net/greenwich")
 mongoose.connect(url, { useNewUrlParser: true }, (err) => {
   if (err) {
     console.log(err);
