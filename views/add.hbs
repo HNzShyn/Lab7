@@ -1,0 +1,26 @@
+<div class="container col-md-6">
+<h2 style="color: lightblue;">Add</h2>
+<form action="/add" method="post" class="card bg-light p-3">
+    <div class="form-group">
+        <h5 style="margin-top-bottom: 10px 5px">Name:</h5>
+        <input class="form-control" type="text" name="name" required minlength="5">
+    </div>
+    <div class="form-group"></div>
+    <h5 style="margin-top-bottom: 10px">Age:</h5>
+    <input class="form-control"  type="number" name="age" required min="1" max="150">
+    <div class="form-group">
+        <h5 style="margin-top-bottom: 10px">Email:</h5>
+
+        <input class="form-control"  type="email" name="email" required>
+    </div>
+    <div class="form-group">
+        <h5 style="margin-top-bottom: 10px">Image:</h5>
+
+        <input class="form-control"  type="text" name="image" required>
+        <div>
+        <input class="btn btn-warning" type="submit" value="Add" style="margin-top: 10px;">
+        </div>
+    </div>
+</form>
+</div>
+</div>
